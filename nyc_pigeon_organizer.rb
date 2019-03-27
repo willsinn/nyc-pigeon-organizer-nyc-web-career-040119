@@ -5,7 +5,10 @@ def nyc_pigeon_organizer(pigeon_data)
         pigeon[name] ||={}
         pigeon[name][key] ||=[]
         pigeon[name][key] << value.to_s
-  
+      end
+    end
+  end
+end
 end
 pigeon_data = {
   :color => {
