@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(pigeon_data)
     h.each do |value, names|
       names.each do |name|
         pigeon[name] ||={}
-        pigeon[name][key]
+        pigeon[name][key] ||={}
   
 end
 pigeon_data = {
