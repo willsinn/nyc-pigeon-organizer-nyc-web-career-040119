@@ -1,7 +1,8 @@
 def nyc_pigeon_organizer(pigeon_data)
   pigeon_data.each_with_object({}) do |(key, h), pigeon|
     h.each do |value, names|
-      names.each do ||
+      names.each do |name|
+        pigeon[name]
   
 end
 pigeon_data = {
