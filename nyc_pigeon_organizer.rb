@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(pigeon_data)
   pigeon_list = {}
-  pigeon_data[:color].merge
+  pigeon_data[:color].merge(pigeon_data[:lives])
 end
 pigeon_data = {
   :color => {
